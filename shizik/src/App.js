@@ -12,7 +12,7 @@ function App() {
                 <div className="container">
                     <ul className="navbar-nav mx-auto">
                         <li className="nav-item">
-                            <Link to="/patients" className="nav-link text-white animate__animated animate__bounce">Пациенты</Link>
+                            <Link to="/" className="nav-link text-white animate__animated animate__bounce">Пациенты</Link>
                         </li>
                         <li className="nav-item">
                             <Link to="/doctor" className="nav-link text-white animate__animated animate__shakeX">Доктор</Link>
@@ -25,7 +25,7 @@ function App() {
             </nav>
             <div className="container">
                 <Routes>
-                    <Route path="/patients" element={<PatientsPage />} />
+                    <Route path="/" element={<PatientsPage />} />
                     <Route path="/doctor" element={<DoctorPage />} />
                     <Route path="/medicine" element={<MedicinePage />} />
                 </Routes>
