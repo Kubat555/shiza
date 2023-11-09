@@ -1,6 +1,5 @@
 import React from 'react';
 import PatientCard from '../components/PatientCard';
-import "../App.css"
 
 const patientsData = [
     {
